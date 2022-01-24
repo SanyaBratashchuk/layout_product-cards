@@ -1,22 +1,22 @@
-* {
-  box-sizing: border-box;
+
+.page {
+  font-family: "Roboto", sans-serif;
 }
 
 .card {
-  font-weight: 400;
   width: 200px;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
-  padding: 0 16px;
+  padding: 32px 16px  16px;
 }
 
 .card__image {
   display: block;
   width: 160px;
   height: 134px;
-  margin: 32px 3px 40px;
+  margin: 0 3px 40px;
 }
 
 .card__title {
@@ -24,12 +24,13 @@
   font-size: 12px;
   font-weight: 500;
   margin-bottom: 4px;
+  color: #060b35;
 }
 
 .card__code {
   font-size: 10px;
-  font-weight: 400;
   margin-bottom: 16px ;
+  color: #616070;
 }
 
 .card__testimonials {
@@ -42,6 +43,7 @@
 .card__reviews {
   white-space: nowrap;
   font-size: 10px;
+  color: #060b35;
 }
 
 .card__price {
@@ -53,11 +55,15 @@
 
 .card__price-text {
   font-size: 12px;
+  font-weight: inherit;
+  color: #616070;
+
 }
 
 .card__price-price {
   font-size: 16px;
   font-weight: 700;
+  color: #060b35;
 }
 
 .card__link {
@@ -72,11 +78,11 @@
   text-transform: uppercase;
   border-radius: 5px;
   background-color: #00acdc;
-  margin-bottom: 16px;
+  border: 1px solid #00acdc;
+  transition: color 0.3s, background-color 0.3s;
 }
 
 .card__link:hover {
   background-color: #fff;
   color: #00acdc;
-  border: 1px solid #00acdc;
 }
