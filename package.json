@@ -37,7 +37,5 @@
   "mateAcademy": {
     "projectType": "layout"
   },
-  "dependencies": {
-    "u": "^0.1.0"
-  }
+  "dependencies": {}
 }
